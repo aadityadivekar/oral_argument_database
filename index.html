@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Argued — Appellate Oral Arguments by Subject</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600;8..60,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+  <header class="app-header">
+    <div class="wordmark">Argued</div>
+    <div class="tagline">Appellate oral arguments, organized by subject</div>
+    <div class="search-wrap">
+      <input id="search-input" type="text" placeholder="Search case names or transcripts…" autocomplete="off">
+    </div>
+  </header>
+
+  <div class="app-body">
+    <aside class="sidebar">
+      <div class="sidebar-section">
+        <h2>Subject</h2>
+        <ul id="category-list" class="filter-list"></ul>
+      </div>
+      <div class="sidebar-section">
+        <h2>Court</h2>
+        <ul id="court-list" class="filter-list"></ul>
+      </div>
+    </aside>
+
+    <main class="case-panel">
+      <div id="case-count" class="case-count"></div>
+      <ul id="case-list" class="case-list"></ul>
+      <div id="empty-state" class="empty-state" hidden>
+        <p>No arguments match this filter.</p>
+      </div>
+      <div id="loading-state" class="empty-state">
+        <p>Loading library…</p>
+      </div>
+    </main>
+  </div>
+</div>
+
+<div id="detail-overlay" class="detail-overlay" hidden>
+  <div class="detail-panel">
+    <button id="detail-close" class="detail-close" aria-label="Close">&times;</button>
+    <div id="detail-content"></div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

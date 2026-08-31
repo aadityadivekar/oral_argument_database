@@ -1,0 +1,67 @@
+[
+ {
+  "id": -1,
+  "case_name": "Doe v. Sample Immigration Services (Demo Case)",
+  "court_id": "ca9",
+  "court_name": "U.S. Court of Appeals for the Ninth Circuit",
+  "date_argued": "2026-03-12",
+  "docket_number": "23-DEMO-01",
+  "audio_url": null,
+  "duration_seconds": 1800,
+  "transcript_text": "This is a placeholder transcript about an asylum and removal proceedings appeal, for demo purposes only.",
+  "source": "demo",
+  "courtlistener_url": null,
+  "categories": [
+   "immigration"
+  ]
+ },
+ {
+  "id": -2,
+  "case_name": "Example Corp. v. Placeholder Tech (Demo Case)",
+  "court_id": "cafc",
+  "court_name": "U.S. Court of Appeals for the Federal Circuit",
+  "date_argued": "2026-02-20",
+  "docket_number": "24-DEMO-02",
+  "audio_url": null,
+  "duration_seconds": 2100,
+  "transcript_text": "Placeholder transcript discussing patent infringement and claim construction, for demo purposes only.",
+  "source": "demo",
+  "courtlistener_url": null,
+  "categories": [
+   "intellectual_property"
+  ]
+ },
+ {
+  "id": -3,
+  "case_name": "United States v. Placeholder (Demo Case)",
+  "court_id": "ca2",
+  "court_name": "U.S. Court of Appeals for the Second Circuit",
+  "date_argued": "2026-01-15",
+  "docket_number": "23-DEMO-03",
+  "audio_url": null,
+  "duration_seconds": 1500,
+  "transcript_text": "Placeholder transcript about a Fourth Amendment suppression of evidence issue, for demo purposes only.",
+  "source": "demo",
+  "courtlistener_url": null,
+  "categories": [
+   "criminal"
+  ]
+ },
+ {
+  "id": -4,
+  "case_name": "Sample v. State Board (Demo Case)",
+  "court_id": "scotus",
+  "court_name": "Supreme Court of the United States",
+  "date_argued": "2025-12-02",
+  "docket_number": "25-DEMO-04",
+  "audio_url": null,
+  "duration_seconds": 3600,
+  "transcript_text": "Placeholder transcript concerning a First Amendment free speech and equal protection question, for demo purposes only.",
+  "source": "demo",
+  "courtlistener_url": null,
+  "categories": [
+   "civil_rights",
+   "constitutional_law"
+  ]
+ }
+]
